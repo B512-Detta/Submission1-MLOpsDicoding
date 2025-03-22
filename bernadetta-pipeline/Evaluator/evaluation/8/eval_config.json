@@ -1,0 +1,35 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "species"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "SparseCategoricalAccuracy",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.6
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.42.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "/Users/bernadetta/Desktop/MLOps/bernadetta-pipeline/Trainer/model/6/Format-Serving"
+  }
+}
