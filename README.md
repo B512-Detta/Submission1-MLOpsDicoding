@@ -4,7 +4,7 @@ Username dicoding: bernadettadwi14@gmail.com
 
 | | Deskripsi |
 | ----------- | ----------- |
-| Dataset | [iris dataset](https://archive.ics.uci.edu/dataset/53/iris) |
+| Dataset | [iris dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data) |
 | Masalah | Klasifikasi spesies bunga Iris berdasarkan pengukuran dimensi kelopak dan mahkota bunga. Dataset ini memiliki 3 kelas spesies bunga Iris yang perlu diklasifikasikan: Setosa, Versicolor, dan Virginica. |
 | Solusi machine learning | Mengimplementasikan machine learning pipeline menggunakan TensorFlow Extended (TFX) untuk mengotomatisasi proses pengembangan model klasifikasi. Pipeline ini mencakup semua komponen yang diperlukan mulai dari pengimporan data hingga evaluasi dan deployment model. |
 | Metode pengolahan | Metode pengolahan data meliputi: normalisasi fitur numerik menggunakan scale_to_0_1 untuk membawa nilai fitur ke rentang [0,1], konversi label kategori ke format numerik (0, 1, 2), dan validasi kualitas data menggunakan ExampleValidator. |
